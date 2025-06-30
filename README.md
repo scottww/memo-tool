@@ -42,15 +42,23 @@ memo gui                     启动图形界面
 ## 系统要求
 
 - Windows 操作系统
-- Python 2.7 或 Python 3.x
+- Python 2.7 或 Python 3.x（推荐 Python 3.6+）
+
+如果遇到 "Python 未安装或未添加到 PATH 环境变量中" 的错误：
+
+1. 运行 `检查Python环境.bat` 工具诊断 Python 安装状态
+2. 参考 [安装指南.md](安装指南.md) 文件获取详细的安装和配置步骤
 
 ## 快速开始
 
-1. 双击 `memo.bat` 查看帮助信息
-2. 使用 `memo new 项目名称` 创建新笔记
-3. 使用 `memo 项目名称` 查看笔记内容
-4. 使用 `memo search 关键词` 搜索笔记
-5. 使用 `memo gui` 或双击 `memo_gui.bat` 启动图形界面
+1. 确保已安装 Python 并正确配置环境变量（详见 [安装指南.md](安装指南.md)）
+2. 双击 `memo.bat` 查看帮助信息
+3. 使用 `memo new 项目名称` 创建新笔记
+4. 使用 `memo 项目名称` 查看笔记内容
+5. 使用 `memo search 关键词` 搜索笔记
+6. 使用 `memo gui` 或双击 `memo_gui.bat` 启动图形界面
+
+如果运行时出现乱码问题，可以在命令提示符中输入 `chcp 65001` 后再运行工具。
 
 ## 图形界面功能
 
